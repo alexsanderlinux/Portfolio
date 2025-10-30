@@ -7,7 +7,7 @@ body {
     font-family: "Lora", serif;
     font-optical-sizing: auto;
     font-weight: 400;
-    font-style: normal;/* Fonte padrão, pode ser substituída por uma importada */
+    font-style: normal;
     margin: 0;
     padding: 0;
     background-color: #f4f4f9; /* Fundo claro para o corpo */
@@ -64,8 +64,7 @@ section:not(:last-child) {
 }
 
 article {
-    /* REMOVEMOS O display: flex daqui */
-    /* Apenas removemos as margens padrões que poderiam existir */
+    
     margin: 0;
     padding: 0; 
 }
