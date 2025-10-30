@@ -3,24 +3,95 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Praticando html 5</title>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Meu Portfólio</title>
 </head>
 <body>
 <!-- Cabeçalho -->
     <header>
-        <h1>Aplicando conceitos</h1>
+        <h1>Top 3 Animes mais famosos do Brasil</h1>
     </header>
     <!-- Conteúdo principal -->
     <main>
         <!-- Seção 1 -->
-        <section>Seção 1</section>
+        <section>
+          <article>
+            <h2>Top 1 - Naruto (2002-2007)</h2>
+            <div class="conteudo-flex">
+                <figure>
+                    <figcaption>Imagem Naruto.</figcaption>
+                    <img src="images/naruto.jpg" alt="imagem Naruto">
+                </figure>            
+            <div class="texto-flex"> 
+                <p>Criado por Masashi Kishimoto, Naruto conta a história do ninja adolescente que dá nome ao anime. Em sua aventura ele busca reconhecimento e sonha se tornar o Hokage, o líder da aldeia e o ninja mais forte. O anime é disparado o mais famoso no Brasil, estreou por aqui no SBT e no Cartoon Network, sendo exibido de 2007 até 2011, atualmente é transmitido em serviços de streaming.</p>
+                <cite>fonte: <a href="https://assuperlistas.com/2025/09/26/animes-famosos-no-brasil/">assuperlistas.com</a></cite>
+            </div>
+        </div>           
+            
+            
+          </article> 
+        </section>
         <!-- Seção 2 -->
-        <section>Seção 2</section>
+        <section>
+            <article>
+                <h2>Top 2 - Dragon Ball (1986-2018)</h2>
+                <div class="conteudo-flex">
+                    <figure>
+                        <figcaption>Imagem Dragon Ball.</figcaption>
+                        <img src="images/dragon_ball.jpg" alt="imagem Dragon ball">
+                    </figure>
+                </div>
+                <div class="texto-flex">                   
+                    <p>Dragon Ball é uma série de animes produzido pela Toei Animation. Baseado em um mangá criado por Akira Toriyama, a animação segue as aventuras do protagonista Goku, que inicialmente se propõe a reunir as poderosas Esferas do Dragão. Depois ele se torna um estudante de artes marciais e precisa evoluir seus poderes para grandes desafios. O anime ficou famoso em sua série inicial, depois teve seu maior sucesso na série Dragon Ball Z. Sua estreia no SBT ocorreu em 1997, já a partir do ano de 2001, a série Dragon Ball Z alcançou grande sucesso na Globo.</p>
+                    <cite>fonte: <a href="https://assuperlistas.com/2025/09/26/animes-famosos-no-brasil/">assuperlistas.com</a></cite>
+                </div>
+            </article>
+        </section>
         <!-- Seção 1 -->
-        <section>Seção 3</section>
-    </main>
-    <footer>
+        <section>
+            <article>
+                <h2>Top 3 - Bleach (2004-2012)</h2>
+                <div class="conteudo-flex">
+                    <figure>
+                        <figcaption>Imagem Bleach.</figcaption>
+                        <img src="images/bleach.jpg" alt="imagem Bleach">
+                    </figure> 
+                </div>                 
+                <div class="texto-flex"> 
+                    <p>Bleach (2004-2012)Bleach é um anime baseado na série de mangás escrita e ilustrada por Tite Kubo. Bleach segue as aventuras de Ichigo Kurosaki que após ganhar os poderes de um Shinigami, um Ceifeiro de Almas vindo do mundo espiritual, a partir daí assume o dever de guiar almas boas ao mundo pós-vida e derrotar os monstros espirituais malignos que tentam devorá-las. No Brasil, Bleach estreou no canal Animax em 2008, já dublado e ganhou uma enorme audiência, sendo exibido pelo canal até 2011.</p>
+                    <cite>fonte: <a href="https://assuperlistas.com/2025/09/26/animes-famosos-no-brasil/">assuperlistas.com</a></cite>
+                </div>    
+            </article>
+        </section>
+        <section>
+            <h2>Vote nos seus animes preferidos: </h2>
+            <form action="" method="post">
+                <fieldset>
+                    <label for="name">Nome:</label>
+                    <input type="text" id="name" name="name" placeholder="digite seu nome" required="required">
+                    <label for="email">email</label>
+                    <input type="email" id="email" name="email" placeholder="digite seu email" required="required">
+                    
+                    <label for="vote">Vote:</label>
+                    <select name="voto" id="voto">
+                        <option value="dandadan">Dan Da Dan</option>
+                        <option value="ranma">Ranma 1/2</option>
+                        <option selected="selected" value="kakegurui">Kakegurui</option>
+                    </select>
+                    <label for="comentarios">Comentários</label>
+                    <textarea name="comentarios" id="comentarios" cols="50" rows="10">
+                        
 
+                    </textarea>
+
+                </fieldset>
+                <button type="submit">Enviar voto...</button>
+            </form>
+        </section>
+    </main>
+    <!-- Rodapé -->
+    <footer>
+        &copy; copyright - Todos os direitos reservados - Animes top 3 - 2025
     </footer>
     
 </body>
