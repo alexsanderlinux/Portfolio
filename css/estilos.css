@@ -2,6 +2,13 @@
     CSS Reset
 */
 
+/*
+    Dimensões ex.: width
+    Tipografia ex.: font-size
+    Estilização ex.: background-color    
+*/
+
+
 * {
     margin: 0;
     padding: 0;
@@ -18,7 +25,7 @@ body {
 
 header {
     padding: 20px;
-    background: linear-gradient(135deg, #e56b84 , #7484ED);
+    background: linear-gradient(135deg, #e56b84, #7484ED);
     color: #fafafa;
     text-align: center;
 }
@@ -32,6 +39,7 @@ header p {
     font-size: 14px;
     margin-top: 5px;
 }
+
 header nav ul li {
     display: inline;
     margin-right: 20px;
@@ -55,7 +63,7 @@ section {
 section h2 {
     text-align: center;
     margin-bottom: 15px;
-    font-size: 20px;    
+    font-size: 20px;
 }
 
 /* Artigo */
@@ -76,14 +84,13 @@ article a {
 
 article a:hover {
     color: #007aff;
-
 }
 
 /* Footer */
 
 footer {
     color: #838285;
-    text-align: center;    
+    text-align: center;
 }
 
 footer a {
